@@ -1,0 +1,33 @@
+Package: margZIfit
+Title: Fitting marginal ZI regression models
+Version: 0.1.0
+Authors@R: person(given = "Tawanda", family = "Benesi",
+           role = c("aut", "cre"), email = "tbenesi@uga.edu",
+           comment = c(ORCID = "0000-0002-6310-6481"))
+Description: The margZIfit package is used to fit marginal ZI regression models assuming a binary mixing structure or a multinomial mixing structure. Parameter estimates are obtained using the ES algorithm for binary mixing models and the ES and RS algorithms for multinomial mixing models.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Depends:
+	R (>= 3.1)
+Imports:
+	purrr,
+	gamlss,
+	matrixcalc,
+	mlogit,
+	R.utils,
+	numDeriv,
+Suggests:
+  dplyr,
+  gtools,
+  reshape,
+  VGAM,
+  bindata,
+  simstudy,
+  data.table,
+  mvdalab,
+  matrixStats,
+  nnet, 
+  nleqslv,
+  pscl,
+RoxygenNote: 7.0.2
